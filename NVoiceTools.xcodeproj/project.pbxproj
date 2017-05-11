@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E65523C1E34437700E3BFBD /* UtilityTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E65523A1E34437700E3BFBD /* UtilityTools.cpp */; };
+		1E6552401E34746700E3BFBD /* OggUnPacker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E65523E1E34746700E3BFBD /* OggUnPacker.cpp */; };
+		1E6552431E347ED900E3BFBD /* OggOpusFileAnalyser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E6552411E347ED900E3BFBD /* OggOpusFileAnalyser.cpp */; };
+		1EBEC67B1E31F92C0013D02A /* OggProtocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EBEC6791E31F92C0013D02A /* OggProtocol.cpp */; };
+		1EC7B0561E30A5CB00E71183 /* AQRecorder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1EC7B0461E30A5CB00E71183 /* AQRecorder.mm */; };
+		1EC7B0571E30A5CB00E71183 /* CodecAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EC7B0481E30A5CB00E71183 /* CodecAdapter.cpp */; };
+		1EC7B0581E30A5CB00E71183 /* CodecTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EC7B04A1E30A5CB00E71183 /* CodecTools.cpp */; };
+		1EC7B0591E30A5CB00E71183 /* WavTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EC7B04C1E30A5CB00E71183 /* WavTools.cpp */; };
+		1EC7B05A1E30A5CB00E71183 /* CodecUtilityTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1EC7B04F1E30A5CB00E71183 /* CodecUtilityTools.mm */; };
+		1EC7B05B1E30A5CB00E71183 /* Encoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1EC7B0511E30A5CB00E71183 /* Encoder.mm */; };
+		1EC7B05C1E30A5CB00E71183 /* EncoderOperation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1EC7B0531E30A5CB00E71183 /* EncoderOperation.mm */; };
+		1EC7B05D1E30A5CB00E71183 /* RecorderManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1EC7B0551E30A5CB00E71183 /* RecorderManager.mm */; };
+		1EC7B06A1E30A75000E71183 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EC7B0651E30A75000E71183 /* CAStreamBasicDescription.cpp */; };
+		1EC7B08C1E30CA7300E71183 /* libopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC7B08B1E30CA7300E71183 /* libopus.a */; };
+		1EC7B0A01E30CCDB00E71183 /* bitwise.c in Sources */ = {isa = PBXBuildFile; fileRef = 1EC7B09B1E30CCDB00E71183 /* bitwise.c */; };
+		1EC7B0A11E30CCDB00E71183 /* framing.c in Sources */ = {isa = PBXBuildFile; fileRef = 1EC7B09C1E30CCDB00E71183 /* framing.c */; };
+		1EC7B0A51E30CD9A00E71183 /* opus_header.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EC7B0A31E30CD9A00E71183 /* opus_header.cpp */; };
+		1EC7B0A81E30D06600E71183 /* OggPacker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EC7B0A61E30D06600E71183 /* OggPacker.cpp */; };
+		4F7D8F8B1E9DFDEB00ED633A /* FSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7D8F8A1E9DFDEB00ED633A /* FSLog.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1EC7B0371E30A51F00E71183 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1E055F191E4416E400A25D61 /* RecorderManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RecorderManager.h; path = inc/RecorderManager.h; sourceTree = SOURCE_ROOT; };
+		1E65523A1E34437700E3BFBD /* UtilityTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UtilityTools.cpp; sourceTree = "<group>"; };
+		1E65523B1E34437700E3BFBD /* UtilityTools.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UtilityTools.hpp; sourceTree = "<group>"; };
+		1E65523D1E34528100E3BFBD /* defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
+		1E65523E1E34746700E3BFBD /* OggUnPacker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OggUnPacker.cpp; sourceTree = "<group>"; };
+		1E65523F1E34746700E3BFBD /* OggUnPacker.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OggUnPacker.hpp; sourceTree = "<group>"; };
+		1E6552411E347ED900E3BFBD /* OggOpusFileAnalyser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OggOpusFileAnalyser.cpp; sourceTree = "<group>"; };
+		1E6552421E347ED900E3BFBD /* OggOpusFileAnalyser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OggOpusFileAnalyser.hpp; sourceTree = "<group>"; };
+		1EBEC6791E31F92C0013D02A /* OggProtocol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OggProtocol.cpp; sourceTree = "<group>"; };
+		1EBEC67A1E31F92C0013D02A /* OggProtocol.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OggProtocol.hpp; sourceTree = "<group>"; };
+		1EC7B0391E30A51F00E71183 /* libNVoiceTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNVoiceTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EC7B0451E30A5CB00E71183 /* AQRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQRecorder.h; sourceTree = "<group>"; };
+		1EC7B0461E30A5CB00E71183 /* AQRecorder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AQRecorder.mm; sourceTree = "<group>"; };
+		1EC7B0481E30A5CB00E71183 /* CodecAdapter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CodecAdapter.cpp; sourceTree = "<group>"; };
+		1EC7B0491E30A5CB00E71183 /* CodecAdapter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CodecAdapter.hpp; sourceTree = "<group>"; };
+		1EC7B04A1E30A5CB00E71183 /* CodecTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CodecTools.cpp; sourceTree = "<group>"; };
+		1EC7B04B1E30A5CB00E71183 /* CodecTools.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CodecTools.hpp; sourceTree = "<group>"; };
+		1EC7B04C1E30A5CB00E71183 /* WavTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WavTools.cpp; sourceTree = "<group>"; };
+		1EC7B04D1E30A5CB00E71183 /* WavTools.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WavTools.hpp; sourceTree = "<group>"; };
+		1EC7B04E1E30A5CB00E71183 /* CodecUtilityTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodecUtilityTools.h; sourceTree = "<group>"; };
+		1EC7B04F1E30A5CB00E71183 /* CodecUtilityTools.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CodecUtilityTools.mm; sourceTree = "<group>"; };
+		1EC7B0501E30A5CB00E71183 /* Encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Encoder.h; sourceTree = "<group>"; };
+		1EC7B0511E30A5CB00E71183 /* Encoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Encoder.mm; sourceTree = "<group>"; };
+		1EC7B0521E30A5CB00E71183 /* EncoderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncoderOperation.h; sourceTree = "<group>"; };
+		1EC7B0531E30A5CB00E71183 /* EncoderOperation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EncoderOperation.mm; sourceTree = "<group>"; };
+		1EC7B0551E30A5CB00E71183 /* RecorderManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RecorderManager.mm; sourceTree = "<group>"; };
+		1EC7B0651E30A75000E71183 /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		1EC7B0661E30A75000E71183 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		1EC7B07E1E30AA8500E71183 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		1EC7B0801E30AA9E00E71183 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1EC7B0821E30AAB100E71183 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1EC7B0841E30AAC700E71183 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1EC7B0861E30AADA00E71183 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1EC7B0881E30AAE100E71183 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1EC7B08A1E30C9AA00E71183 /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMath.h; sourceTree = "<group>"; };
+		1EC7B08B1E30CA7300E71183 /* libopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopus.a; path = NVoiceTools/opus/lib/libopus.a; sourceTree = "<group>"; };
+		1EC7B09B1E30CCDB00E71183 /* bitwise.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitwise.c; sourceTree = "<group>"; };
+		1EC7B09C1E30CCDB00E71183 /* framing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = framing.c; sourceTree = "<group>"; };
+		1EC7B09D1E30CCDB00E71183 /* ogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ogg.h; sourceTree = "<group>"; };
+		1EC7B09E1E30CCDB00E71183 /* os_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_types.h; sourceTree = "<group>"; };
+		1EC7B09F1E30CCDB00E71183 /* sconfig_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sconfig_types.h; sourceTree = "<group>"; };
+		1EC7B0A31E30CD9A00E71183 /* opus_header.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = opus_header.cpp; sourceTree = "<group>"; };
+		1EC7B0A41E30CD9A00E71183 /* opus_header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_header.h; sourceTree = "<group>"; };
+		1EC7B0A61E30D06600E71183 /* OggPacker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OggPacker.cpp; sourceTree = "<group>"; };
+		1EC7B0A71E30D06600E71183 /* OggPacker.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OggPacker.hpp; sourceTree = "<group>"; };
+		4F7D8F8A1E9DFDEB00ED633A /* FSLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FSLog.framework; path = ../../../Library/FSLog/FSLog.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EC7B0361E30A51F00E71183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7D8F8B1E9DFDEB00ED633A /* FSLog.framework in Frameworks */,
+				1EC7B08C1E30CA7300E71183 /* libopus.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EC7B0301E30A51F00E71183 = {
+			isa = PBXGroup;
+			children = (
+				1EC7B03B1E30A51F00E71183 /* NVoiceTools */,
+				1EC7B03A1E30A51F00E71183 /* Products */,
+				1EC7B07D1E30AA8500E71183 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1EC7B03A1E30A51F00E71183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EC7B0391E30A51F00E71183 /* libNVoiceTools.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EC7B03B1E30A51F00E71183 /* NVoiceTools */ = {
+			isa = PBXGroup;
+			children = (
+				1E055F191E4416E400A25D61 /* RecorderManager.h */,
+				1EC7B0A21E30CD9A00E71183 /* opusTools */,
+				1EC7B0451E30A5CB00E71183 /* AQRecorder.h */,
+				1EC7B04E1E30A5CB00E71183 /* CodecUtilityTools.h */,
+				1EC7B0501E30A5CB00E71183 /* Encoder.h */,
+				1EC7B0521E30A5CB00E71183 /* EncoderOperation.h */,
+				1EC7B0461E30A5CB00E71183 /* AQRecorder.mm */,
+				1EC7B04F1E30A5CB00E71183 /* CodecUtilityTools.mm */,
+				1EC7B0511E30A5CB00E71183 /* Encoder.mm */,
+				1EC7B0531E30A5CB00E71183 /* EncoderOperation.mm */,
+				1EC7B0551E30A5CB00E71183 /* RecorderManager.mm */,
+				1EC7B0471E30A5CB00E71183 /* Codec */,
+				1EC7B09A1E30CCDB00E71183 /* ogg */,
+				1EC7B0611E30A75000E71183 /* PublicUtility */,
+				1E65523D1E34528100E3BFBD /* defines.h */,
+			);
+			path = NVoiceTools;
+			sourceTree = "<group>";
+		};
+		1EC7B0471E30A5CB00E71183 /* Codec */ = {
+			isa = PBXGroup;
+			children = (
+				1EC7B0481E30A5CB00E71183 /* CodecAdapter.cpp */,
+				1EC7B0491E30A5CB00E71183 /* CodecAdapter.hpp */,
+				1EC7B04A1E30A5CB00E71183 /* CodecTools.cpp */,
+				1EC7B04B1E30A5CB00E71183 /* CodecTools.hpp */,
+				1EC7B04C1E30A5CB00E71183 /* WavTools.cpp */,
+				1EC7B04D1E30A5CB00E71183 /* WavTools.hpp */,
+			);
+			path = Codec;
+			sourceTree = "<group>";
+		};
+		1EC7B0611E30A75000E71183 /* PublicUtility */ = {
+			isa = PBXGroup;
+			children = (
+				1EC7B08A1E30C9AA00E71183 /* CAMath.h */,
+				1EC7B0651E30A75000E71183 /* CAStreamBasicDescription.cpp */,
+				1EC7B0661E30A75000E71183 /* CAStreamBasicDescription.h */,
+			);
+			path = PublicUtility;
+			sourceTree = "<group>";
+		};
+		1EC7B07D1E30AA8500E71183 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F7D8F8A1E9DFDEB00ED633A /* FSLog.framework */,
+				1EC7B08B1E30CA7300E71183 /* libopus.a */,
+				1EC7B0881E30AAE100E71183 /* CoreGraphics.framework */,
+				1EC7B0861E30AADA00E71183 /* Foundation.framework */,
+				1EC7B0841E30AAC700E71183 /* UIKit.framework */,
+				1EC7B0821E30AAB100E71183 /* AVFoundation.framework */,
+				1EC7B0801E30AA9E00E71183 /* AudioToolbox.framework */,
+				1EC7B07E1E30AA8500E71183 /* CoreAudio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EC7B09A1E30CCDB00E71183 /* ogg */ = {
+			isa = PBXGroup;
+			children = (
+				1EC7B09B1E30CCDB00E71183 /* bitwise.c */,
+				1EC7B09C1E30CCDB00E71183 /* framing.c */,
+				1EC7B09D1E30CCDB00E71183 /* ogg.h */,
+				1EC7B09E1E30CCDB00E71183 /* os_types.h */,
+				1EC7B09F1E30CCDB00E71183 /* sconfig_types.h */,
+			);
+			path = ogg;
+			sourceTree = "<group>";
+		};
+		1EC7B0A21E30CD9A00E71183 /* opusTools */ = {
+			isa = PBXGroup;
+			children = (
+				1EC7B0A31E30CD9A00E71183 /* opus_header.cpp */,
+				1EC7B0A41E30CD9A00E71183 /* opus_header.h */,
+				1EC7B0A61E30D06600E71183 /* OggPacker.cpp */,
+				1EC7B0A71E30D06600E71183 /* OggPacker.hpp */,
+				1EBEC6791E31F92C0013D02A /* OggProtocol.cpp */,
+				1EBEC67A1E31F92C0013D02A /* OggProtocol.hpp */,
+				1E65523A1E34437700E3BFBD /* UtilityTools.cpp */,
+				1E65523B1E34437700E3BFBD /* UtilityTools.hpp */,
+				1E65523E1E34746700E3BFBD /* OggUnPacker.cpp */,
+				1E65523F1E34746700E3BFBD /* OggUnPacker.hpp */,
+				1E6552411E347ED900E3BFBD /* OggOpusFileAnalyser.cpp */,
+				1E6552421E347ED900E3BFBD /* OggOpusFileAnalyser.hpp */,
+			);
+			path = opusTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EC7B0381E30A51F00E71183 /* NVoiceTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EC7B0421E30A51F00E71183 /* Build configuration list for PBXNativeTarget "NVoiceTools" */;
+			buildPhases = (
+				1EC7B0351E30A51F00E71183 /* Sources */,
+				1EC7B0361E30A51F00E71183 /* Frameworks */,
+				1EC7B0371E30A51F00E71183 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NVoiceTools;
+			productName = NVoiceTools;
+			productReference = 1EC7B0391E30A51F00E71183 /* libNVoiceTools.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EC7B0311E30A51F00E71183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = fxiaoke;
+				TargetAttributes = {
+					1EC7B0381E30A51F00E71183 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1EC7B0341E30A51F00E71183 /* Build configuration list for PBXProject "NVoiceTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1EC7B0301E30A51F00E71183;
+			productRefGroup = 1EC7B03A1E30A51F00E71183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EC7B0381E30A51F00E71183 /* NVoiceTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EC7B0351E30A51F00E71183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC7B0591E30A5CB00E71183 /* WavTools.cpp in Sources */,
+				1E6552431E347ED900E3BFBD /* OggOpusFileAnalyser.cpp in Sources */,
+				1EC7B0A01E30CCDB00E71183 /* bitwise.c in Sources */,
+				1EC7B0581E30A5CB00E71183 /* CodecTools.cpp in Sources */,
+				1EC7B0571E30A5CB00E71183 /* CodecAdapter.cpp in Sources */,
+				1EC7B05D1E30A5CB00E71183 /* RecorderManager.mm in Sources */,
+				1EC7B0A81E30D06600E71183 /* OggPacker.cpp in Sources */,
+				1E6552401E34746700E3BFBD /* OggUnPacker.cpp in Sources */,
+				1EC7B0A51E30CD9A00E71183 /* opus_header.cpp in Sources */,
+				1EC7B05A1E30A5CB00E71183 /* CodecUtilityTools.mm in Sources */,
+				1EC7B05B1E30A5CB00E71183 /* Encoder.mm in Sources */,
+				1EC7B0561E30A5CB00E71183 /* AQRecorder.mm in Sources */,
+				1EC7B05C1E30A5CB00E71183 /* EncoderOperation.mm in Sources */,
+				1EC7B06A1E30A75000E71183 /* CAStreamBasicDescription.cpp in Sources */,
+				1EC7B0A11E30CCDB00E71183 /* framing.c in Sources */,
+				1EBEC67B1E31F92C0013D02A /* OggProtocol.cpp in Sources */,
+				1E65523C1E34437700E3BFBD /* UtilityTools.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1EC7B0401E30A51F00E71183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1EC7B0411E30A51F00E71183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EC7B0431E30A51F00E71183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../../../Library/FSLog;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/NVoiceTools/opus/include/opus";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NVoiceTools/opus/lib",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1EC7B0441E30A51F00E71183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../../../Library/FSLog;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/NVoiceTools/opus/include/opus";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NVoiceTools/opus/lib",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EC7B0341E30A51F00E71183 /* Build configuration list for PBXProject "NVoiceTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EC7B0401E30A51F00E71183 /* Debug */,
+				1EC7B0411E30A51F00E71183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EC7B0421E30A51F00E71183 /* Build configuration list for PBXNativeTarget "NVoiceTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EC7B0431E30A51F00E71183 /* Debug */,
+				1EC7B0441E30A51F00E71183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EC7B0311E30A51F00E71183 /* Project object */;
+}
